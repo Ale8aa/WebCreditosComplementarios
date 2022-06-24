@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/Proyecto Final/CSS/styleLogin.css">
+<script src="/Proyecto Final/JS/js.js">
+
+document.getElementById("enviar").innerHTML =
+"Page path is " + window.location.pathname;
+</script>
+<body>
+    <div id="formulario">
+        <h1>Iniciar sesión</h1>
+        <form method="post"  name="form">
+            <div id="nomUsuario">
+                <input type="text" name="user" required >
+                <label>Nombre de usuario</label>
+            </div>
+            <div id="nomUsuario">
+                <input type="password" value="" name="pass" required >
+                <label>Contraseña</label>
+            </div>
+            <div id="recordar">¿Olvidaste tu contraseña?</div>
+            <input type="submit" value="Iniciar" id="enviar" onclick="location.href='inicio.html'">
+        </form>
+
+    </div>
+</body>
+</html>

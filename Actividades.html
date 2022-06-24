@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="/Proyecto Final/JS/Inscribirse.js"></script>
+<link rel="stylesheet" href="/Proyecto Final/CSS/styleAct.css">
+<link rel="stylesheet" href="/Proyecto Final/CSS/styleInicio.css">
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li class="ImagLogo"><img src="/Proyecto Final/Imagenes/Menu/scc3.png" alt="Logo" width="90px"></li>
+                <li> <a href="#">Inicio</a> </li>
+                <li> <a href="#">Actividades</a> 
+                    <ul class="submenu"> 
+                        <li><a href="#">Actividades disponibles</a></li>
+                        <li><a href="#">Mis actividades</a></li>  
+                    </ul>
+                </li>
+                <li> <a href="#"> <img src="Imagenes/Menu/notificacion.png" width="25px" id="notif" alt="Notificacion"> </a>
+                    <ul class="submenu"> 
+                        <li><h3>Notificaciones</h3> <a href="#"> Configuracion </a></li>
+                        <li><p>No hay notificaciones</p></li>  
+                    </ul>
+                </li>
+                <li> <a href="#"> <img src="Imagenes/Menu/user.png" width="25px" id="user" alt="user"> </a>
+                    <ul class="submenu"> 
+                        <li><a href="#">Mis Actividades</a></li>
+                        <li><a href="#">Mis Créditos</a></li>
+                        <li><a href="#">Notificaciones</a></li>
+                        <li><a href="#">Mensajes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h2>Actividades nuevas</h2>
+<div class="lomasnuevo">
+    <div class="actividad">
+        <h4>Basquetbol</h4>
+        <a href="#"> <img src="Imagenes/Actividades/basquetbol1.jpg" width="200px" id="basq" alt="Basquetbol"> </a>
+        <p>Actividad deportiva, que fomenta la convivencia y la actividad fisica</p>
+        <p><strong>Fecha de inicio:</strong>29/06/2022</p>
+        <p><strong>Horario:</strong>9:00 AM, 16:00 PM</p>
+        <p><strong>Lugar:</strong>Canchas del ITCH</p>
+        <p><strong>Créditos:</strong>1</p>
+        <input type="submit" value="Inscribrise" class="detalles">
+    </div>
+    <div class="actividad">
+        <h4>Pintura</h4>
+        <a href="#"> <img src="Imagenes/Actividades/pintura.jpg" width="200px" id="basq" alt="Basquetbol"> </a>
+        <p>Actividad recreativa, donde aprenderás los metodos para pintar en oleo</p>
+        <p><strong>Fecha de inicio:</strong>29/06/2022</p>
+        <p><strong>Horario:</strong>9:00 AM, 16:00 PM</p>
+        <p><strong>Lugar:</strong>Unidad deportiva del ITCH</p>
+        <p><strong>Créditos:</strong>1</p>
+        <input type="submit" value="Inscribrise" class="detalles"onclick="inscribirse()">
+    </div>
+    <div class="actividad">
+        <h4>Platica Igualdad</h4>
+        <a href="#"> <img src="Imagenes/Actividades/platicaIgualdad.png" width="200px" id="basq" alt="Basquetbol"> </a>
+        <p>Actividad recreativa, donde aprenderás los metodos para pintar en oleo</p>
+        <p><strong>Fecha de inicio:</strong>10/08/2022</p>
+        <p><strong>Horario:</strong>9:00 AM, 16:00 PM</p>
+        <p><strong>Lugar:</strong>Aula audiovisual</p>
+        <p><strong>Créditos:</strong>1</p>
+        <input type="submit" value="Inscribrise" class="detalles" onclick="inscribirse()">
+    </div>
+    <div class="actividad">
+        <h4>Platica Igualdad</h4>
+        <a href="#"> <img src="Imagenes/Actividades/platicaIgualdad.png" width="200px" id="basq" alt="Basquetbol"> </a>
+        <p>Actividad recreativa, donde aprenderás los metodos para pintar en oleo</p>
+        <p><strong>Fecha de inicio:</strong>10/08/2022</p>
+        <p><strong>Horario:</strong>9:00 AM, 16:00 PM</p>
+        <p><strong>Lugar:</strong>Aula audiovisual</p>
+        <p><strong>Créditos:</strong>1</p>
+        <input type="submit" value="Inscribrise" class="detalles" onclick="inscribirse()">
+    </div>
+</div>
+
+    <div class="todasactividades">
+        <h2>Actividades disponibles</h2>
+
+        <div class="filtro">
+            <div class="numCreditos">
+                
+
+            </div>
+            <div class="tipoActividad">
+                
+            </div>
+
+        </div>
+        <div actividadesTod>
+            <div class="actividad">
+                <h4>Platica Igualdad</h4>
+                <a href="#"> <img src="Imagenes/Actividades/platicaIgualdad.png" width="200px" id="basq" alt="Basquetbol"> </a>
+                <p>Actividad recreativa, donde aprenderás los metodos para pintar en oleo</p>
+                <p><strong>Fecha de inicio:</strong>10/08/2022</p>
+                <p><strong>Horario:</strong>9:00 AM, 16:00 PM</p>
+                <p><strong>Lugar:</strong>Aula audiovisual</p>
+                <p><strong>Créditos:</strong>1</p>
+                <input type="submit" value="Detalles" class="detalles">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    </main>
+    <footer class="PiePagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="/Proyecto Final/Imagenes/Menu/sccNB.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Alejandra Martinez Ochoa ITCHetumal</p>
+                <p>Alejandra Martinez Ochoa ITCHetumal</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="redsocial">
+                    <a href="#" class=""></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+       <div class="grupo2">
+           <small>&copy; 2022 <b>19390058</b> -Todos los Derechos Reservados.</small>
+
+       </div>
+
+    </footer>
+    
+</body>
+</html>

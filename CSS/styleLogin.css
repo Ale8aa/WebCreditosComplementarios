@@ -1,0 +1,111 @@
+body{
+    padding:0;
+    margin: 0;
+    background: linear-gradient(80deg, #388697,#EBBAB9 );
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+#formulario{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 400px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#formulario h1{
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #e1e5f2;
+    text-align: center;
+}
+#formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form #username{
+    position: relative;
+    border-bottom: 2px solid #e1e5f2;
+    margin: 30px 0;
+}
+#nomUsuario input{
+    width: 100%;
+    height: 40px;
+    background: none;
+    outline:none;
+    border: none;
+    padding: 0px 10px;
+    font-size:15px;
+    border-bottom: 2px solid #e1e5f2;
+}
+#nomUsuario label{
+    /*position: relative;*/
+    top: 100%;
+    left: 5px;
+    font-size:15px;
+    color: #39487c;
+    transform: translateY(30%);
+    pointer-events: none;
+}
+
+#recordar{
+    margin:-5px 0 10px 5px ;
+    color: black;
+    cursor: pointer;
+}
+
+#recordar:hover{
+    text-decoration: underline;
+}
+
+#nomUsuario span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #b83898;
+    transition: .10s;
+}
+
+#nomUsuario input:focus ~ label,
+#nomUsuario input:focus ~ label{
+    top: -30px;
+    color: rgb(20, 77, 77);
+}
+
+#nomUsuario input:focus ~ span::before,
+#nomUsuario input:focus ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height:50px ;
+    border: 1px solid;
+    background-color: #08415C;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e1e5f2;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: aqua;
+    transition: .5s;
+}
+
+#recordar{
+    margin: 10px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+#recordar:hover{
+    text-decoration: underline;
+}

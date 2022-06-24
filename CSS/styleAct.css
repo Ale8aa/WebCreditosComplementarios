@@ -1,0 +1,31 @@
+
+.lomasnuevo{
+    /*padding: 1em;*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px,auto);
+}
+.actividad{
+    background-color:aliceblue;
+    text-align: left;
+    padding: 1em;
+}
+
+p{
+    padding: 2px 0 4px 0;
+}
+.actividad img{
+    width: 250px;
+    height: 150px;
+}
+.lomasnuevo h2{
+    border-bottom: 1px solid;
+    border-color: rgb(202, 188, 188);
+}
+.actividad p{
+    font-size: 14px;
+}
+.actividad:hover{
+    border: 1px solid #EBBAB9;
+}
